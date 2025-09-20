@@ -30,7 +30,7 @@ The program aims to:
 
 # 📆 Weekly Progress Tracker
 
-| **Week** | **Topics / Deliverables** | **Status** |
+| **Week** | **Description** | **Status** |
 |----------|---------------------------|------------|
 | [Week0](./Week0)  |Overview of Digital VLSI SoC Design and Planning,Tools Installation | ✅ Completed |
 
