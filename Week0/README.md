@@ -15,8 +15,27 @@
 This repository contains all the setup and installation instructions for Week0 tasks.
 
 ---
+## Oracle VirtualBox and Ubuntu Setup
 
-## System Requirements
+### **1. Install Oracle VirtualBox**
+
+1. Download VirtualBox from the official website:  
+   [VirtualBox Downloads](https://www.virtualbox.org/wiki/Downloads)
+---
+
+### **2. Install Ubuntu ISO on VirtualBox**
+
+1. Download the **Ubuntu 20.04+ ISO** from the official website: [Ubuntu Downloads](https://releases.ubuntu.com/20.04/)
+2. Open VirtualBox → Click **New** → Enter a name (e.g., Ubuntu20.04), select **Linux → Ubuntu (64-bit)**.
+3. Allocate system resources:  
+   - **RAM:** 8 GB  
+   - **CPU:** 4 vCPU  
+   - **Hard Disk:** 50 GB
+4. Select **Use an existing virtual hard disk file** and browse to your downloaded **Ubuntu ISO**.
+5. Start the VM → Follow the **Ubuntu installation steps** inside VirtualBox.
+---
+
+### **3.System Requirements**
 
 Before starting, ensure your system meets the following requirements:
 
@@ -27,12 +46,6 @@ Before starting, ensure your system meets the following requirements:
 
 ---
 
-## Oracle Virtual Machine
-
-Download and install the Oracle VirtualBox from the official link:  
-[VirtualBox Downloads](https://www.virtualbox.org/wiki/Downloads)
-
----
 
 ## Tool Installation Instructions
 
@@ -54,6 +67,11 @@ make
 sudo make install
 
 ```
+
+
+ <img src="images/yosys.png" alt="yosys" />
+
+ ---
 ### **2. iverilog**
 
 ```bash
@@ -61,6 +79,8 @@ sudo apt-get update
 sudo apt-get install iverilog
 
 ```
+<img src="images/iverilog.png" alt="iverilog" />
+---
 
 ### **3. GTKWave**
 ```bash
@@ -68,3 +88,6 @@ sudo apt-get update
 sudo apt install gtkwave
 
 ```
+<img src="images/gtkwave.png" alt="gtkwave" />
+---
+
