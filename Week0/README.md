@@ -1,12 +1,6 @@
-# Week0 - Setup and Installation Instructions
+# Week0 - VLSI System Design (VSD) Program Foundation & Tools Installation Instructions
 
-<p align="center">
-  <!-- Project / Organization Badges -->
-  <img src="https://img.shields.io/badge/RISC-V-000000?style=for-the-badge&logo=risc-v&logoColor=white" alt="RISC-V"/>
-  <img src=./images alt="IIIT Gandhinagar"/>
-  <img src="https://img.shields.io/badge/VSD-808080?style=for-the-badge&logoColor=white" alt="VSD"/>
-  <img src="https://img.shields.io/badge/Synopsys-0056b3?style=for-the-badge&logoColor=white" alt="Synopsys"/>
-</p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/VirtualBox-2A5DB0?style=for-the-badge&logo=virtualbox&logoColor=white" alt="VirtualBox"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
@@ -58,3 +52,19 @@ libboost-python-dev libboost-filesystem-dev zlib1g-dev
 make config-gcc
 make
 sudo make install
+
+```
+### **2. iverilog**
+
+```bash
+sudo apt-get update
+sudo apt-get install iverilog
+
+```
+
+### **3. GTKWave**
+```bash
+sudo apt-get update
+sudo apt install gtkwave
+
+```
