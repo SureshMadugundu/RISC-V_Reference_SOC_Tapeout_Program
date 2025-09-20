@@ -1,5 +1,14 @@
 # RISC-V Reference SoC Tapeout Program – IIT Gandhinagar & VSD
 
+
+![RISC-V](https://img.shields.io/badge/ISA-RISC--V-blue?style=for-the-badge)
+![SoC](https://img.shields.io/badge/SoC-Project-red?style=for-the-badge)
+![VSD](https://img.shields.io/badge/Domain-VSD-green?style=for-the-badge)
+![IIT Gandhinagar](https://img.shields.io/badge/Institute-IIT%20Gandhinagar-lightgrey?style=for-the-badge)
+![Synopsys](https://img.shields.io/badge/EDA-Synopsys-800080?style=for-the-badge)
+
+
+
 Welcome to my **RISC-V Reference SoC Tapeout Program** repository!  
 This repository contains all my **weekly tasks, notes, and learnings** from the program conducted by [VLSI System Design (VSD)](https://www.vlsisystemdesign.com/).
 
