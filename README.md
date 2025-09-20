@@ -32,7 +32,7 @@ The program aims to:
 
 | **Week** | **Topics / Deliverables** | **Status** |
 |----------|---------------------------|------------|
-| Week 0 | Tools Installation | ✅ Completed |
+| [Week0](./Week0)  | Tools Installation | ✅ Completed |
 
 
 > I will continue updating the repository weekly with notes, logs, waveforms, and other deliverables.
