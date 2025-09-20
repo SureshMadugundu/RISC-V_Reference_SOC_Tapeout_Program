@@ -1,5 +1,14 @@
 # Task1 - Overview of Digital VLSI SoC Design and Planning
 
+![C](https://img.shields.io/badge/Language-C-blue)
+![Verilog](https://img.shields.io/badge/RTL-Verilog-orange)
+![SOC](https://img.shields.io/badge/Domain-SoC-red)
+![VLSI](https://img.shields.io/badge/Domain-VLSI-yellowgreen)
+
+This project provides a comprehensive overview of **Digital VLSI System-on-Chip (SoC) design**, covering the workflow from **high-level C modeling** to **fully verified silicon-ready GDSII layouts**. The aim is to understand the complete SoC development cycle, including design, verification, and integration of both digital and analog components.
+
+---
+
 ### 1. **Chip Modeling (O1)**
 - Starts with **C-based specifications** to describe the chip’s intended functionality.  
 - A **C model** acts as a functional simulator, capturing the chip’s behavior.  
@@ -35,7 +44,16 @@
 ---
 
 ### 4. **Physical Design Flow (RTL → GDSII)**
-- Converts RTL design into a **physical layout** ready for fabrication.  
+- Converts RTL design into a **physical layout** ready for fabrication.
+
+<p align="center">
+  <img src="./images/soc_1.png" width="400"/>
+  <img src="./images/soc_2.png" width="400"/>
+</p>
+
+<p align="center">
+  <i>Figure 1 & 2: High-level SoC design and integration diagrams</i>
+</p>
 
 **Key Steps:**
 1. **Floorplanning:** Allocate space for major functional blocks.  
@@ -43,8 +61,8 @@
 3. **Clock Tree Synthesis (CTS):** Distribute clock signals efficiently.  
 
 **Verification Checks:**
-- **Design Rule Check (DRC):** Confirms layout complies with fabrication rules.  
-- **Layout vs Schematic (LVS):** Ensures layout matches the RTL design.  
+- **Design Rule Check (`DRC`):** Confirms layout complies with fabrication rules.  
+- **Layout vs Schematic (`LVS`):** Ensures layout matches the RTL design.  
 
 **Outputs:**
 - **GDSII File:** Final chip layout ready for manufacturing.  
@@ -55,13 +73,13 @@
 
 ### 5. **Key Concepts**
 
-| Term        | Description                                               |
-|------------|-----------------------------------------------------------|
-| Soft Macro | Synthesizable RTL block; flexible and modifiable          |
-| Hard Macro | Pre-designed, fixed layout block                           |
-| GDSII      | Physical chip layout file for fabrication                 |
-| DRC        | Design rule compliance check                               |
-| LVS        | Ensures layout matches RTL functionality                  |
+| Term        | Description                                               | Example                        |
+|------------|-----------------------------------------------------------|--------------------------------|
+| Soft Macro | Synthesizable RTL block; flexible and modifiable         | Custom ALU, FIFO               |
+| Hard Macro | Pre-designed, fixed layout block                          | SRAM block, PLL                |
+| GDSII      | Physical chip layout file for fabrication                | Final layout for fab           |
+| DRC        | Design rule compliance check                              | Minimum width, spacing rules   |
+| LVS        | Ensures layout matches RTL functionality                 | Compare schematic vs layout    |
 
 ---
 
@@ -75,3 +93,7 @@
 
 ---
 
+### 7. **Next Steps**
+- Explore timing closure and power optimization techniques.  
+- Learn automated verification tools like `PrimeTime` and `Cadence Innovus`.  
+- Implement a small SoC integration project for hands-on experience.  
